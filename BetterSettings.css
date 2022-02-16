@@ -1,5 +1,4 @@
 @import url('https://xhylo.github.io/BetterSettings/BetterSettings.css');
-
 /*-----------DON'T CHANGE------------*/
 :root{--outdated:none!important}
 /*  usrbg | snippet by _david_#0218  */
@@ -12,6 +11,11 @@
 }
 .root-3QyAh1[style*="--user-background"] .banner-2QYc2d {
   height: 240px;
+}
+
+/* remove usbr/native*/
+.UserBackgrounds-banner-badge {
+    display:none !important;
 }
 
 /* Better Jump To Present Button */
