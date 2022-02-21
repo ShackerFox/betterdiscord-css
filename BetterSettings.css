@@ -351,3 +351,7 @@ img.emote {
     content:'Hello, You need nitro to use custom stickers but its useless so dont buy nitro!';
     font-size: 24px;
 }
+
+/* Channel DMs resize */
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/ChannelDms.css);
+
