@@ -355,3 +355,7 @@ img.emote {
 /* Channel DMs resize */
 @import url(https://maendisease.github.io/BetterDiscordStuff/css/ChannelDms.css);
 
+/* Channel Names Capitalized */
+.channelName-3KPsGw {
+text-transform: capitalize;
+}
