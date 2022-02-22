@@ -343,7 +343,6 @@ img.emote {
     display:block;
 }
 
-
 /* Removes nitro promotion on custom stickers */
 .emptyState-Ud44C9 .header-24Iqpn{
     font-size: 0px;
@@ -351,4 +350,9 @@ img.emote {
 .emptyState-Ud44C9 .header-24Iqpn:before{
     content:'Hello, You need nitro to use custom stickers but its useless so dont buy nitro!';
     font-size: 24px;
+}
+
+/* Channel Names Capitalized */
+.channelName-3KPsGw {
+text-transform: capitalize;
 }
