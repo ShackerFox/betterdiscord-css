@@ -1,8 +1,5 @@
 @import url('https://xhylo.github.io/BetterSettings/BetterSettings.css');
 
-/* Channel DMs resize */
-@import url(https://maendisease.github.io/BetterDiscordStuff/css/ChannelDms.css);
-
 /*-----------DON'T CHANGE------------*/
 :root{--outdated:none!important}
 /*  usrbg | snippet by _david_#0218  */
@@ -354,9 +351,4 @@ img.emote {
 .emptyState-Ud44C9 .header-24Iqpn:before{
     content:'Hello, You need nitro to use custom stickers but its useless so dont buy nitro!';
     font-size: 24px;
-}
-
-/* Channel Names Capitalized */
-.channelName-3KPsGw {
-text-transform: capitalize;
 }
