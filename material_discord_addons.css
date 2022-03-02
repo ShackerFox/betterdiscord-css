@@ -1,0 +1,186 @@
+/* Discord Links */
+@import url("https://thecommieaxolotl.github.io/BetterDiscord-Stuff/Imports/DiscordLinks.css");
+@import url('https://xhylo.github.io/WinMacbuttons/winmacbuttonssc.css');
+@import url(https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css);
+@import url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/css/addons/status-picker/source.css);
+/* nitro tab */
+.scroller-1bVxF5 .colorPremium-vwmYZQ,
+/* flower icon next to server name */
+.flowerStar-2tNFCR,
+.flowerStarContainer-1QeD-L,
+/* question mark when trying to change tag in user settings */
+.questionMark-3V9mGJ,
+/* billing tab in user settings */
+[aria-controls="connections-tab"]~*:nth-child(n+7):nth-child(-n+13),
+/* remove nitro label in user customization section */
+.customizationSection-IGy2fS:nth-child(3),
+/* remove stuff in server settings related to nitro */
+.emptyState-Ud44C9 .colorHeaderSecondary-g5teka, 
+.emptyState-Ud44C9 .stickersRow-3OJE_7,
+.container-1eD8xH,
+.emptyState-Ud44C9 .colorHeaderSecondary-g5teka, 
+.emptyState-Ud44C9 .stickersRow-3OJE_7,
+.shinyButton-2Q9MDB, 
+.premiumPromoDescription-1kf0Oa,
+.divider--oiTeJ+div+div+div,
+.children-1xdcWE .upsellContainer-22N_CL,
+.emptyTierWrapper-V5c-R7 .button-f2h6uQ,
+/* removes gift button */
+.buttons-uaqb-5 > .button-f2h6uQ:not(.BD-TeX-plugin-button) > :not(.quickToggleButton-P2xDh8)
+{
+    display: none;
+}
+/* Removes nitro promotion when you press on disabled emojis */
+.premiumPromo-1eKAIB .premiumPromoTitle-3tWrPT{
+    font-size: 0;
+}
+.premiumPromo-1eKAIB .premiumPromoTitle-3tWrPT:before{
+    content:"Hello fellow user, You need nitro for this to work but its useless anyways so dont buy it!";
+    font-size: 20px;
+    text-align: center;
+    display:block;
+}
+/* Remove stage discord tab */
+#private-channels [href="/discovery"] {display: none}
+/* Removes nitro promotion on custom stickers */
+.emptyState-Ud44C9 .header-24Iqpn{
+    font-size: 0px;
+}
+.emptyState-Ud44C9 .header-24Iqpn:before{
+    content:'Hello, You need nitro to use custom stickers but its useless so dont buy nitro!';
+    font-size: 24px;
+}
+
+/* Square PFP from the user popup */
+.userPopout-2j1gM4 .avatarWrapperNormal-ahVUaC.avatarWrapper-eenWra.avatarPositionNormal-2jWoC2.clickable-GKg4Qy > div > .wrapper-1VLyxH .avatarStack-3vfSFa > img {
+    border-radius: 30%;
+}
+
+:is(#svg-mask-avatar-status-round-80, #svg-mask-avatar-status-mobile-80)>circle:first-of-type {
+    r: 100% !important;
+}
+.userPopout-2j1gM4 :is(.avatar-2Vndt_, .avatar-b5OQ1N, .avatarHintInner-2HUAWj) {
+    border-radius: 30%;
+}
+
+.avatar-2e8lTP {
+  border-radius: 30%;
+}
+
+/* Remove call feature from the user popup */
+#user-context-call {display:none}
+
+.guilds-2JjMmN .tree-3agP2X:focus {
+  outline-color: transparent;
+}
+.guilds-2JjMmN .scroller-3X7KbA {
+  contain: unset;
+  margin-top: 56px;
+}
+.guilds-2JjMmN .scroller-3X7KbA .tutorialContainer-1pL9QS {
+  position: fixed;
+  transform: translatey( -100% );
+}
+
+/* remove usbr/native*/
+.UserBackgrounds-banner-badge {
+    display:none !important;
+}
+
+/* Rounded Context Menu */
+.menu-1QACrS, .colorDefault-CDqZdO { 
+    border-radius: 15px; 
+}
+
+/*disable discord's laggy settings animation*/
+.layer-86YKbF {transform: none !important;opacity: 1 !important;}
+.layers-OrUESM>.layer-86YKbF.animating-1rIrGV *,
+.layers-OrUESM>.layer-86YKbF.animating-1rIrGV {pointer-events: auto !important;will-change: unset;}
+.animating-1rIrGV.stop-animations {z-index: 100 !important;}
+
+/*Hide help icon*/
+.toolbar-3_r2xA a {display: none;}
+
+/*Add Background image to Discord*/
+:root {
+    --background-image: url('https://i.imgur.com/kYW2H5C.jpg');
+    --opacity: .95;
+}
+
+:root {background:var(--background-image) center/cover no-repeat;opacity:var(--opacity)}
+
+
+/* Unclamp the About Me section, so it's not limited to just 6 lines. (normally it cuts off at 6 and adds a ...) */
+.clamped-2ZePhX{
+    -webkit-line-clamp: 190; /*Maximum amount of characters as new lines, unset just breaks links*/
+    max-height:112px;
+    overflow-x: hidden;
+    overflow-y:scroll;
+}
+.clamped-2ZePhX::-webkit-scrollbar {
+  width: 10px;
+  height: 15px;
+}
+.clamped-2ZePhX::-webkit-scrollbar-track {
+  border-radius: 10px; /*How round you want the scrollbar to be. 0 is square, 10px is round.*/
+  background-color: rgb(255 255 255 / 10%); /*Edit this to what color you want the track to be.*/
+}
+.clamped-2ZePhX::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #00aeff, #a68eff); /* Edit this to whatever color/colors you'd like*/
+  border-radius: 10px; /*How round you want the scrollbar thumb to be. 0 is square, 10px is round.*/
+}
+
+/* Channel Names Capitalized */
+.channelName-3KPsGw {
+text-transform: capitalize;
+}
+
+/* Remove role icons from the popup */
+.userPopout-2j1gM4 .roleIcon-3-WL_I {
+    display:none
+}
+
+/* Less intrusive Stage channel popup */
+.channelNotice-2bJINM {
+    height: 20px;
+    margin: 0;
+    padding: 16px;
+    transition: 0.2s ease-in-out;
+}
+.channelNotice-2bJINM .textBlock-2FWDjE {
+    height: 0;
+    opacity: 0;
+    margin: 0;
+    transition: 0.3s ease-in-out;
+}
+.channelNotice-2bJINM button {
+    height: 0;
+    opacity: 0;
+    margin: 0;
+    padding: 0;
+    transition: 0.3s ease-in-out;
+}
+.channelNotice-2bJINM:hover {
+    height: 152px;
+}
+.channelNotice-2bJINM:hover .textBlock-2FWDjE {
+    height: 16px;
+    margin: 4px auto;
+    opacity: 1;
+}
+.channelNotice-2bJINM:hover button {
+    height: 32px;
+    margin: unset;
+    padding: unset;
+    opacity: 1;
+}
+
+/* Remove annoying css editor helper */
+.markdown-hover {
+    display: none;
+}
+
+/* Remove CreArts Modal Blur */
+.backdrop-1wrmKB::before, .backdropWithLayer-3_uhz4::before {backdrop-filter: none;}
+
+ 
