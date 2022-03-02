@@ -100,15 +100,6 @@
 /*Hide help icon*/
 .toolbar-3_r2xA a {display: none;}
 
-/*Add Background image to Discord*/
-:root {
-    --background-image: url('https://i.imgur.com/cAw0PMz.png');
-    --opacity: 25;
-}
-
-:root {background:var(--background-image) center/cover no-repeat;opacity:var(--opacity)}
-
-
 /* Unclamp the About Me section, so it's not limited to just 6 lines. (normally it cuts off at 6 and adds a ...) */
 .clamped-2ZePhX{
     -webkit-line-clamp: 190; /*Maximum amount of characters as new lines, unset just breaks links*/
