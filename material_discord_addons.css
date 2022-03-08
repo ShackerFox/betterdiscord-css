@@ -205,3 +205,91 @@ text-transform: capitalize;
     --message-padding: 0;
     --message-padding-alt: 4px 0 0;
 }
+
+* Blur Spoiler */
+.spoilerText-27bIiA,
+.spoilerText-27bIiA.hidden-3B-Rum {
+    background-color: transparent !important;
+}
+
+.spoilerText-27bIiA.hidden-3B-Rum > .inlineContent-2YnoDy {
+    opacity: 1 !important;
+    filter: blur(3px);
+    pointer-events: unset;
+}
+
+/* Move role icon to the right */
+[class*="roleIcon"] {
+    float: left;
+    margin-left: 0rem;
+    margin-right: .25rem;
+}
+
+/* hide Public Servers button */
+.scroller-3X7KbA > div:nth-child(6) > div:nth-child(2),
+.scroller-3X7KbA > div:nth-child(5) > div:nth-child(2) {
+    display: none;
+}
+
+.videoControls-2NzHnF {
+  flex-wrap: wrap;
+  width: 80%;
+  height: 10%;
+  min-height: 30px;
+  max-width: 90vh;
+  max-height: 6vh;
+  bottom: 4%;
+  padding-bottom: 14px;
+  margin: 0 auto;
+  border-radius: 8px;
+  backdrop-filter: blur(12px)
+}
+  .wrapperControlsHidden-2BK8R2 .videoControls-2NzHnF {bottom: 0}
+  .videoControls-2NzHnF .durationTimeWrapper-LdSEv8 {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 24px);
+  left: 8px;
+  margin-top: 42px
+}
+.videoControls-2NzHnF .durationTimeSeparator-1Cqi9N {display: none}
+.videoControls-2NzHnF>div:nth-child(1) {margin: 0 auto}
+.videoControls-2NzHnF .horizontal-2HFjqv {order: 1;padding: 0 6vh}
+.videoControls-2NzHnF .flex-3BkGQD {order: -2}
+.videoControls-2NzHnF #Loop {order: -1}
+.metadata-3IncIG {pointer-events: none}
+.metadataDownload-3IY84h {pointer-events: auto}
+
+/* Minified search bar */ 
+:root {
+    --transitionspeed: 0.25s;
+}
+
+.search-2Mwzzq:not(.open-1F8u2c) .searchBar-jGtisZ {width: 27px; transition: var(--transitionspeed); background-color: transparent;}
+.search-2Mwzzq:not(.open-1F8u2c):hover .searchBar-jGtisZ {width: 170px; background-color: var(--background-tertiary);}
+.search-2Mwzzq:not(.open-1F8u2c) .iconContainer-1RqWJj {transform: scale(1.3); transition: var(--transitionspeed);}
+.search-2Mwzzq:not(.open-1F8u2c):hover .iconContainer-1RqWJj {transform: scale(1);}
+.search-2Mwzzq:not(.open-1F8u2c) .icon-18rqoe {color: var(--text-normal);}
+.search-2Mwzzq:not(.open-1F8u2c):hover .icon-18rqoe {color: var(--text-muted);}
+
+/* Remove Discord Watermark */
+.wordmarkWindows-2dq6rw {
+display: none;
+}
+
+.item-1OdjEX#guild-context-invite-people, .item-1OdjEX#channel-context-invite-people { display: none;}
+
+:root section.panels-3wFtMD > .container-YkUktl { height: 52px;}
+
+:root section.panels-3wFtMD > .container-YkUktl > .flex-2S1XBF {
+  position: static;
+  flex-direction: row;
+  width: 100%;
+  z-index: unset;
+  background: transparent;
+  padding: 0;
+}
+
+:root section.panels-3wFtMD > .container-YkUktl > .flex-2S1XBF > .button-12Fmur { margin: auto;}
+:root nav.guilds-2JjMmN .scroller-2TZvBN, :root nav.guilds-2JjMmN .scroller-3X7Kb
